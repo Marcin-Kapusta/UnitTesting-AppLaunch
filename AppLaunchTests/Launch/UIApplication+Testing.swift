@@ -13,7 +13,6 @@ extension UIApplication {
      */
     func removeSceneSessionsFromCache() {
         for session in openSessions {
-            // application.requestSceneSessionRefresh(sceneSession)
             perform(Selector(("_removeSessionFromSessionSet:")), with: session)
         }
     }
