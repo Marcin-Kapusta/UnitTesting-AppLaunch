@@ -1,0 +1,26 @@
+{
+  "configurations" : [
+    {
+      "id" : "462334F4-0A5D-453A-A7B7-E148172B52E2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:AppLaunch.xcodeproj",
+        "identifier" : "129FB48F2DF84F31002865F9",
+        "name" : "AppLaunchTests"
+      }
+    }
+  ],
+  "version" : 1
+}
